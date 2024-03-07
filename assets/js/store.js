@@ -1,4 +1,4 @@
-// Declare eee as a global variable
+
 let products;
 
 fetch('https://jptdnmemfnftsbhyxnjw.supabase.co/rest/v1/products?select=*', {
@@ -15,7 +15,7 @@ fetch('https://jptdnmemfnftsbhyxnjw.supabase.co/rest/v1/products?select=*', {
 })
 .catch(error => console.error('Error:', error));
 
-// Define createStore() to use the global variable eee
+
 function createStore() {
 
     productList = "";
@@ -59,4 +59,3 @@ function createStore() {
 
   return productList;
 }
-
