@@ -1,6 +1,5 @@
 
 let products;
-
 fetch('https://jptdnmemfnftsbhyxnjw.supabase.co/rest/v1/products?select=*', {
   method: 'GET',
   headers: {
